@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'GeoSlab703 Md BT';
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+input:focus,textarea:focus,button:focus{
+    outline: none;
+}
+
+
+/* service setion styling start */
+
+.section-padding{
+    padding: 80px 0;
+}
+
+
+/* section heading title styling */
+.section-title{
+    text-align: center;
+}
+
+.section-title h2{
+    font-size: 40px;
+    color: #333;
+    line-height: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.section-title h2 span{
+    color:#059669;
+}
+
+.section-title p{
+    font-size: 16px;
+    list-style: 20px;
+    padding-bottom: 20px;
+}
+
+/* pricing table styling here now */
+.single-price-container{
+    border: 1px solid #EBEBEA;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 50px;
+    transition: .4s;
+}
+
+.single-price-container:hover{
+    border: 1px solid #059669;
+    box-shadow: 0 3px 20px #059669;
+}
+
+.pricing-icon{
+    height: 120px;
+    padding: 20px 0;
+}
+
+.pricing-icon i{
+    font-size: 60px;
+}
+
+.pricing-icon img{
+    max-width: 160px;
+    height: 80px;
+}
+
+.pricing-list {
+    margin: 10px 0;
+}
+
+.pricing-list ul{
+    padding-left: 30px;
+}
+
+.pricing-list ul li{
+    color: #999;
+    font-size: 16px;
+    position: relative;
+    margin-bottom: 5px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.pricing-list ul li:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #2FB671;
+    font-family: "fontAwesome";
+    content: "\f058";
+    vertical-align: middle;
+}
+
+.single-price-container h3{
+    font-size: 35px;
+    line-height: 35px;
+    color: #666;
+    margin: 30px 0;
+}
+
+.single-price-container a.pricing-btn{
+    display: inline-block;
+    background-color: transparent;
+    padding: 7px 20px;
+    border-radius: 10px;
+    color: #059669;
+    border: 1px solid #059669;
+    margin: 10px 0;
+    transition: .4s;
+}
+
+.single-price-container a.pricing-btn:hover{
+    background-color: #059669;
+    color: #fff;
+}
